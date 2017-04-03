@@ -1,0 +1,3 @@
+#! /bin/sh
+gcc  -ansi -Wall -o convertisseur_de_fichier_question convertisseur_de_fichier_question.c -L/usr/local/lib -lsx -lm
+gcc  -ansi -Wall -o lecteur lecteur.c -L/usr/local/lib -lsx -lm

@@ -1,0 +1,47 @@
+14/02/2004
+	Gestionquestion
+		-convertisseur de fichier question
+		-lecteur (pour les fichiers convertis)
+	interlude:Testmalloc
+	Aquisition:
+		-aquisition question
+15/02/2004
+	Pretraitement
+		-chaine reponse theorique
+		-chaine reponse donne
+	Traitement:
+		-Basic compage pour mot exact
+	Interface
+		-Textuelle
+///////////////////////////////
+		1ere Version FINIE
+	BUG RANDOM INEFFICACE
+
+25/02/04
+	Traitement
+		-pretraitement:
+			*mise en place d'une affectation de fitness
+			indiquant le rapprochement d'un mot avec une serie de mot
+			*mise en place d'un tri de ces mots et
+			fitness(selection directe , a remplacer par un tri rapide)
+26/02/04
+	Traitement
+		-pretraitement:	
+			*rectification du fitness pour test sur les
+			256 caracteres du jeu iso_8859_1
+	interlude:charascii:verivication du code pour utilisation
+	directe des char pour indexer un tableau.->signed char
+	Traitement
+		-pretraitement:
+			*rectification du fitness pour supporter char
+			signe.
+	GestionDico:	
+		-Lecteur et convertisseur de fichier vers des fichier
+		de dico pour le programme.
+		-permet l'utilisation de fichier venu de windows avec
+		la correction apportée
+	Aquisition:
+		-aquisition_dico est fonctionnel.
+16/03/04 INTERFACE GRAPHIQUE FONCTIONNELLE
+
+	 PROJET TERMINE

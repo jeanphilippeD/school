@@ -1,0 +1,28 @@
+Fonctionne en utilisant la librairie libsx
+
+Pour extraire :
+	tar xvf QUIZZDufraigneZanon.tar.gz
+	
+pour instaler assurez vous que 'install' a la permission d'execution
+et
+	./install
+	pour l'execution:
+	./Quizz
+
+
+Vous pouvez creer vos porpres questinnaires sur le model de ceux presentes avec GestionQuestion
+Assurez vous que tous les mots cles utilises soit dans le dictionnaire que vous pouvez mettre a jour avec Gestion dico
+
+Amusez vous bien
+
+Aide
+	Pour commencer Question Suivante
+	Pour le score Fin
+	Un peu d'aide vous sera donner par Aide
+	Vous pourez quiter avec Quit
+	Vous choisirez le niveau des question avec niveau de difficulte
+	et une pertinence de reponse minimale avec la scrollBarre (click gauche pour augmenter click droit pour diminuer)
+	Pour entrer votre reponse mettez le curseur sur la zone de reponse
+
+pour m'ecrire,des questions,des BUGS,des messages d'encouragement
+	QuizzDufraigne@hotmail.com

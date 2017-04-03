@@ -1,0 +1,4 @@
+#! /bin/sh
+gcc  -ansi -Wall -o convertisseur_de_fichier_Dico convertisseur_de_fichier_Dico.c -L/usr/local/lib -lsx -lm
+gcc  -ansi -Wall -o netoyeur netoyeur.c -L/usr/local/lib -lsx -lm
+gcc  -ansi -Wall -o lecteur lecteur.c -L/usr/local/lib -lsx -lm
