@@ -2,4 +2,7 @@ OBJS	=  aquisition_dico.c aquisition_question.c callbacks.c Ma_String_Entry.c pr
 CFLAGS = -ansi -Wall -I/usr/local/include
 
 all : $(OBJS)
-	gcc  -ansi -Wall -o Quizz $(OBJS) -L/usr/local/lib -lsx -lm
+	gcc  -ansi -Wall -o Quizz $(OBJS) -O3 -L/usr/local/lib -lsx -lm
+
+debug : $(OBJS)
+	gcc  -ansi -Wall -o Quizzd $(OBJS) -g -L/usr/local/lib -lsx -lm

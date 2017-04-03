@@ -8,7 +8,7 @@
 /*
  *main.c
  */
-/* Définition taille fenetre */
+/* Dï¿½finition taille fenetre */
 #define X_SIZE 400
 #define Y_SIZE 400
 #define HAUTEUR_QUESTION 100
@@ -23,7 +23,8 @@
 #define TAILLE_REPONSE 350/*Utilisee aussi pour la largeur question*/
 #define MARGE_HAUTEUR_POUR_REPONSE 5 /* en pixels en haut et en bas (toale= marge*2)*/
 #define MARGE_LONGUEUR_POUR_REPONSE 5 /* en pixels en avant et apres (toale= marge*2)*/
-#define LA_FONT_UTILISEE "-adobe-courier-bold-o-normal--12-120-75-75-m-70-iso8859-1"
+/* Avoid unknown font"-adobe-courier-bold-o-normal--12-120-75-75-m-70-iso8859-1" */
+#define LA_FONT_UTILISEE "-*-*-bold-*-*-*-12-*-*-*-*-*-*-*"
 /* font utilise pour l'entre de la reponse*/
 /*
  */
